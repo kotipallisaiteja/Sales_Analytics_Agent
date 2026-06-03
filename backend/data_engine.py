@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARQUET_PATH = os.path.join(
     BASE_DIR,
     "data",
-    "sales_data_900K.parquet"
+    "sales_data_100K.parquet"
 )
 
 def load_data():
